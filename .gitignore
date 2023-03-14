@@ -1,1 +1,7 @@
 appset*
+bin
+obj
+packages
+*.user
+*.suo
+_Resharper.*
