@@ -53,7 +53,7 @@ Directory Structure
 ├── .gitignore                # Git ignore configuration
 └── README.md                 # Project documentation
 ```
-##Running the Application
+## Running the Application
 Run the App Locally: To run the application locally, use the following command:
 
 ```bash
@@ -61,9 +61,10 @@ dotnet run
 ```
 This will start the application on your local machine, typically accessible at http://localhost:5000.
 
-Run with Debugging: You can debug the application using your IDE (e.g., Visual Studio or VS Code). Make sure the debugging configuration is set for .NET Core.
+## Run with Debugging: 
+You can debug the application using your IDE (e.g., Visual Studio or VS Code). Make sure the debugging configuration is set for .NET Core.
 
-##Environment Variables
+## Environment Variables
 The application is configured to use environment variables for sensitive data and configuration settings. Ensure that the following environment variables are set:
 
 APP_SETTINGS – The application configuration settings.
@@ -71,10 +72,10 @@ DATABASE_URL – The database connection string.
 SECRET_KEY – The secret key used for cryptography.
 These variables can be set in your system, or you can use an .env file in your root directory for local development.
 
-##Azure Deployment
+## Azure Deployment
 I deployed with Azure, but you can choose how to deploye yourself, if needed
 
-##Testing
+## Testing
 Unit and integration tests are organized in the project. To run the tests, use the following command:
 
 ```bash
