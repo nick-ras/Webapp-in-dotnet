@@ -17,19 +17,22 @@ This is a web application built using ASP.NET Core. It includes a clean and modu
    ```bash
    git clone https://github.com/your-repo/webapp-dotnet.git
    cd webapp-dotnet
-Restore Dependencies: Ensure you have .NET SDK installed and run:
+   
+Dependencies: Ensure you have .NET SDK installed and run:
 
 ```bash
 dotnet restore
+```
 Build the Project: To build the application, execute:
 ```
 ```bash
 dotnet build
+```
 Prerequisites
 .NET SDK (Version: 5.0 or higher)
 Azure Account (for cloud deployment)
 Visual Studio Code or any preferred IDE for .NET development
-```
+
 Directory Structure
 ```bash
 ├── .azure                    # Azure-related configurations
@@ -60,7 +63,7 @@ This will start the application on your local machine, typically accessible at h
 
 Run with Debugging: You can debug the application using your IDE (e.g., Visual Studio or VS Code). Make sure the debugging configuration is set for .NET Core.
 
-Environment Variables
+##Environment Variables
 The application is configured to use environment variables for sensitive data and configuration settings. Ensure that the following environment variables are set:
 
 APP_SETTINGS – The application configuration settings.
@@ -68,7 +71,10 @@ DATABASE_URL – The database connection string.
 SECRET_KEY – The secret key used for cryptography.
 These variables can be set in your system, or you can use an .env file in your root directory for local development.
 
-Testing
+##Azure Deployment
+I deployed with Azure, but you can choose how to deploye yourself, if needed
+
+##Testing
 Unit and integration tests are organized in the project. To run the tests, use the following command:
 
 ```bash
