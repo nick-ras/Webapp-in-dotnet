@@ -10291,26 +10291,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nick-\\.nuget\\packages\\": {}
+    "/home/nickras/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nick-\\OneDrive\\Desktop\\Software udvikling\\WebApp_with_table\\WebAppStartup\\WebAppStartup.csproj",
+      "projectUniqueName": "/home/nickras/Downloads/Webapp-in-dotnet/WebAppStartup/WebAppStartup.csproj",
       "projectName": "WebAppStartup",
-      "projectPath": "C:\\Users\\nick-\\OneDrive\\Desktop\\Software udvikling\\WebApp_with_table\\WebAppStartup\\WebAppStartup.csproj",
-      "packagesPath": "C:\\Users\\nick-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nick-\\OneDrive\\Desktop\\Software udvikling\\WebApp_with_table\\WebAppStartup\\obj\\",
+      "projectPath": "/home/nickras/Downloads/Webapp-in-dotnet/WebAppStartup/WebAppStartup.csproj",
+      "packagesPath": "/home/nickras/.nuget/packages/",
+      "outputPath": "/home/nickras/Downloads/Webapp-in-dotnet/WebAppStartup/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nick-\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/nickras/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10365,6 +10363,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10373,7 +10385,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.112/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,9 +1,42 @@
-appset*
-bin
-obj
-packages
-*.user
-*.suo
-_Resharper.*
-.vs*
+# Azure-related files
+.azure/
+
+# Visual Studio-related files
+.vs/
+
+# Build artifacts
+obj/
+bin/
+
+# Local environment configurations
 .env
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Generated files
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Package files and directories
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Code-specific
+.vscode/
+
+# Dotnet Core SDK and runtime files
+.dotnet/
