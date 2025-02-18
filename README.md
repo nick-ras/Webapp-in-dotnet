@@ -24,7 +24,6 @@ Dependencies: Ensure you have .NET SDK installed and run:
 dotnet restore
 ```
 Build the Project: To build the application, execute:
-```
 ```bash
 dotnet build
 ```
